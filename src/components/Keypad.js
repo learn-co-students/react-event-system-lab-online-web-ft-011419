@@ -8,7 +8,7 @@ export default class Keypad extends Component {
   render() {
     return (
     <div className="keypad">
-      <input type="password" onKeyUp={this.password}>/>
+      <input type="password" onKeyUp={this.password}/>
     </div>
     )
   }
